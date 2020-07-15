@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif, 'Nunito';
+  color: #333;
+  /* margin: 0em; */
+  font-size: 1.1em;
+}
+
+input[type=button], select {
+  font: inherit;
+}
+
+div {
+  text-align: justify;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #EEE;
+    background-color: #0B161D;
+  }
+}
